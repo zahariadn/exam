@@ -1,0 +1,13 @@
+require "rspec"
+require "question_paper"
+
+describe QuestionPaper do
+    subject{QuestionPaper.new}
+
+    it "should have an empty array of questions when question_paper.rb is created" do
+    subject.questions.should  be_an_instance_of(Array)
+    [].should be_an_instance_of(Array)
+    end
+
+end
+
