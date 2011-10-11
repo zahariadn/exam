@@ -6,7 +6,7 @@ describe QuestionPaper do
 
     it "should have an empty array of questions when question_paper.rb is created" do
     subject.questions.should  be_an_instance_of(Array)
-    [].should be_an_instance_of(Array)
+    subject.questions.size.should == 0
     end
 
 end

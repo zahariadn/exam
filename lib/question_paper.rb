@@ -5,6 +5,4 @@ class  QuestionPaper
   end
 
 
-
-
 end
