@@ -1,7 +1,12 @@
 class  QuestionPaper
+  attr_reader :questions
+  def initialize()
+    @questions=[]
+  end
 
-  def questions
-    []
+  def add(question)
+    @questions.push(question)
+
   end
 
 

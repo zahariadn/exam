@@ -9,5 +9,12 @@ describe QuestionPaper do
     subject.questions.size.should == 0
     end
 
+
+    it "should  add the question to the question paper" do
+      question =mock('Question')
+      subject.add(question)
+      subject.questions.should include(question)
+    end
+
 end
 
